@@ -1,0 +1,48 @@
+.register-bg {
+    background-image: url('../../imagens/register-bg.jpg');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.bg-default {
+    background-color: #ff5757;
+}
+
+.card {
+    box-shadow: 2px 2px 0px 2px #aeaeae6d;
+}
+
+.input-group  {
+    box-shadow: 2px 2px 0px 2px #aeaeae !important;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.anim-preload {
+    animation-name:preload;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+
+@keyframes preload {
+    
+    0%{
+        filter: contrast(1);
+    }
+
+    100% {
+        filter: blur(1.1);
+    }
+
+}
+
+
+

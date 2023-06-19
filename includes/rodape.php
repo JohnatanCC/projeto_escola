@@ -63,7 +63,8 @@
   <footer class="main-footer">
     <strong>Sistema de estoque - 2023 | Criado por Alunos da JMF. </strong>
     <div class="float-right d-none d-sm-inline-block">
-      <b>Versão</b> 1.0
+    <a href="home.php?acao=dev" >Desenvolvedor</a> 
+    <b>Versão</b> 1.0
     </div>
   </footer>
 

@@ -85,6 +85,7 @@ include_once('../includes/sair.php');
       margin-right:5px;
       width:40px;
       height:40px;
+      
       box-shadow: 2px 2px 0px 2px #762238;
     }
 

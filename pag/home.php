@@ -17,7 +17,9 @@ if (isset($_GET['acao'])) {
         include_once('relatorio3.php');
     } elseif ($acao == 'perfil') {
         include_once('perfil.php');
-    } elseif ($acao == 'editar') {
+    }elseif($acao == 'dev'){
+        include_once('dev.php');
+    }elseif ($acao == 'editar') {
         include_once('editar.php');
     } else {
         include_once('erro.php');
